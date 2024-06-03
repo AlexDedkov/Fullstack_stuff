@@ -1,0 +1,218 @@
+/* Общие стили для всей страницы */
+ 
+html,body
+{
+    background-color: #130b5b;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.general__buttonsettings {
+    border-radius: 35px;
+    padding: 0px 7px 15px 15px;
+    width: 228px;
+    height: 68px;
+    margin-top: -7px;
+    background-color: #c93555 !important;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.list-group-horizontal {
+    margin-top: 50px;
+}
+
+.general__verticalbar {
+    display: inline-block;
+    transform: scale(2,5);
+    margin-right: 5px;
+}
+
+.headertop {
+    margin-bottom: 0px;
+}
+
+.firstcontainer {
+    height: 799px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    margin-top: 0px;
+    background-image: url(./Lab1/практика/фон.png);
+}
+
+.secondcontainer {
+    height: 615px;
+}
+
+.thirdcontainer {
+    height: 749px;
+    background-color: #130b5b;
+}
+
+
+.colorlightblue {
+    background-color: #130b5b;
+}
+
+.colordarkblue {
+    background-color: #03033f;
+}
+
+/* Header стили */
+
+
+.navbar-brand {
+    margin-left:15px;
+}
+
+.headertop__textcourses--link {
+    margin-left: 50px;
+}
+
+.headertop__navbarright {
+    height: 60px;
+}
+
+.headertop__navbar--text {
+    margin-right: 18px;
+    margin-bottom: 19px;
+}
+
+
+.headertop__textcourses--text {
+    font-size:17px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+.headertop__navbar--general {
+    font-size:22px;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    
+}
+
+/* Первый блок */
+
+.firstcontainer__textblock {
+    margin-left: 293px;
+    margin-top: 140px;
+}
+
+.firstcontainer__textblock--admin {
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 38px;
+}
+
+.firstcontainer__textblock--profession {
+    font-size: 23px;
+    padding-top: 0px;
+}
+
+.firstcontainer__textblock--specialist {
+    margin-top: 45px;
+    font-size: 20px;
+
+}
+
+.firstcontainer__textblock--button {
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.firstcontainer__textblock--redhorline {
+    display: inline-block;
+    transform: scale(13.5, 5);
+    margin-left: 53px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.firstcontainer__listgroup--lowertext {
+    font-size: 20px;
+    padding-top: 0px;
+}
+
+.firstcontainer__listgroup--uppertext {
+    margin-bottom: 5px;
+}
+
+/* Второй блок */
+
+.secondcontainer__rightsidetext--maintext {
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 45px;
+}
+
+
+.secondcontainer__rightsidetext--heading {
+    font-size: 30px;
+    display: inline;
+}
+
+.secondcontainer__leftsidepic {
+    margin-top: 100px;
+}
+
+.secondcontainer__rightsidetext{
+    margin-top: 100px;
+}
+
+/* Третий блок */
+
+.thirdcontainer__maintext {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.thirdcontainer__headingtext {
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.thirdcontainer__buttonspecial {
+    width: 489px;
+    height: 144px;
+    margin-top: 60px;
+    font-size: 30px;
+}
+/* Футер */
+
+.footer__ul {
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.footer__ul--text {
+    font-size: 20px;
+}
+
+.footer__ul--icons {
+    background-color: red;
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 0.25em; 
+    display: inline-block; 
+    text-decoration: none;
+    margin-top: 15px;
+    margin-right: 18px;
+    
+}
+
+.ul.footer__ul:last-child() {
+    margin-left: 500px;
+}
