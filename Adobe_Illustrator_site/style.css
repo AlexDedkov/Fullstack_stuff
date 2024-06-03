@@ -1,0 +1,138 @@
+.darkbg {
+    background-color: #eeeeed;
+}
+
+.textgrey {
+    color: #d4d0c8;
+}
+
+.textcolorgreen {
+    color: #06bac5;
+}
+.textcolormedgreen {
+    color:#008daa;
+}
+.textcolordarkgreen {
+    color: #005c7d;
+}
+
+.bg-white {
+    background-color: white;
+}
+.underlinetext:hover {
+    text-decoration: underline;
+    color: #eeeeed;
+}
+
+.textunderline {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.colordarkgreen {
+    background-color: #005c7d;
+}
+
+.nav-link::before {
+    content: "• ";
+    }
+
+.customredcolor:hover {
+    color: #eb477b;
+}
+
+.changebgpink:hover{
+    background-color: #eb477b;
+    border: #eb477b;
+}
+
+.avatar {
+    border-radius: 50%;
+
+}
+
+.hoverquestion:hover {
+    color: #008daa;
+}
+
+.changevkpink:hover{
+    content: url(./Stuff/img/vk-pink.png);
+}
+.changefbpink:hover{
+    content: url(./Stuff/img/fb-pink.png);
+}
+.changeintspink:hover{
+    content: url(./Stuff/img/inst-pink.png);
+}
+.changetwpink:hover{
+    content: url(./Stuff/img/tw-pink.png);
+}
+
+.changevkwhite:hover{
+    content: url(./Stuff/img/vk-white.png);
+}
+
+.changefbwhite:hover{
+    content: url(./Stuff/img/fb-white.png);
+}
+
+.changeinstwhite:hover{
+    content: url(./Stuff/img/inst-white.png);
+}
+
+.changetwwhite:hover{
+    content: url(./Stuff/img/tw-white.png);
+}
+
+@font-face {
+    font-family: fa-brands-400;
+    src: url(./Stuff/fonts/fa-brands-400.ttf);
+}
+@font-face {
+    font-family: fa-regular-400;
+    src: url(./Stuff/fonts/fa-regular-400.ttf);
+}
+@font-face {
+    font-family: fa-solid-900;
+    src: url(./Stuff/fonts/fa-solid-900.ttf);
+}
+@font-face {
+    font-family: FontAwesome;
+    src: url(./Stuff/fonts/FontAwesome.otf);
+}
+@font-face {
+    font-family: fontawesome-webfont;
+    src: url(./Stuff/fonts/fontawesome-webfont.ttf);
+}
+@font-face {
+    font-family: Philosopher-Bold;
+    src: url(./Stuff/fonts/Philosopher-Bold.ttf);
+}
+@font-face {
+    font-family: Philosopher-Regular;
+    src: url(./Stuff/fonts/Philosopher-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Italic;
+    src: url(./Stuff/fonts/Roboto-Italic.ttf);
+}
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(./Stuff/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(./Stuff/fonts/Roboto-Regular.ttf);
+}
+
+.h1 {
+    font-family: Philosopher-Bold;
+}
+
+.list-group-item::before {
+    content: "\2713";
+}
+
+.buttonsecblock {
+    border-radius: 65px;
+}
